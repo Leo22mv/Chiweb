@@ -38,8 +38,6 @@ class Pedido
     @sabor.hacer_kilo!
 end
 
-Luisa = Pedido.new "Luisa", 2, JamonYQueso
-
 module Caja
     @caja = 0
 
