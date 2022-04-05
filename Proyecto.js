@@ -111,28 +111,3 @@ function cancelarPedido(cliente, cantidad, sabor) {
     pedidosCancelados.push([cliente, cantidad])
     return "Cancelado :("
 }
-
-pedido("Luisa", 2, "JamonYQueso")
-pedido("TiaAli", 1, "RicotaConNuez")
-pedido("dsa", 1, "dsa")
-pedido("wdq", 2, "dwqd")
-pedido("fewf", 5, "few")
-pedido("dwqd", 7, "dwqdwq")
-pedido("Marisa", 1, "PolloYJamon")
-entregado("fewf", 5, "few")
-entregado("Marisa", 1, "PolloYJamon")
-entregado("Luisa", 2, "JamonYQueso")
-entregado("dwqd", 7, "dwqdwq")
-entregado("wdq", 2, "dwqd")
-entregado("dsa", 1, "dsa")
-entregado("TiaAli", 1, "RicotaConNuez")
-
-cerrarCaja()
-NuevoDia()
-
-pedido("as", 1, "as")
-entregado("as", 1, "as")
-
-NuevoDia()
-
-pedido("qw", 1, "qw")
