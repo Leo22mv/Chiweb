@@ -4,44 +4,61 @@
         <title>Pastas</title>
     </head>
     <body>
-        <h1>Pastas</h1> 
-        <h3>Pedidos x0</h3><br>
-        <p>¡ Alerta de stock !</p><br>
-        <!-- ul = lista no ordenada (ol = lista ordenada), li = elemento de lista -->
-        <ul>
-            <li>Harina:0</li>
-            <li>Huevos:0</li>
-            <li>Jamon:0</li>
-            <li>Queso:0</li>
-            <li>Ricota:0</li>
-            <li>Nuez:0</li>
-            <li>Espinaca:0</li>
-            <li>Calabaza:0</li>
-            <li>Roquefort:0</li>
-            <li>Tomate:0</li>
-            <li>Albahaca:0</li>
-            <li>Pollo:0</li>
-            <li>Choclo:0</li>
-        </ul>
+        <header> <h1 id="titulo">Pastas</h1> </header>  <!-- header, (div = section) y footer son para separar la cabecera, cuerpo y pie de pagina -->
+        
+        <div></div> <!-- puede haber divs dentro de divs, no sections dentro de sections(se usa article) -->
+
+        <section>
+            <article>
+                <h3>Pedidos x0</h3><br>
+            </article> <!-- article se usa para identificar varios contenidos de forma independiente -->
+        </section>
+
+        <section>
+            <p>¡ Alerta de stock !</p><br>
+            <!-- ul = lista no ordenada (ol = lista ordenada), li = elemento de lista -->
+            <ul>
+                <li>Harina:0</li>
+                <li>Huevos:0</li>
+                <li>Jamon:0</li>
+                <li>Queso:0</li>
+                <li>Ricota:0</li>
+                <li>Nuez:0</li>
+                <li>Espinaca:0</li>
+                <li>Calabaza:0</li>
+                <li>Roquefort:0</li>
+                <li>Tomate:0</li>
+                <li>Albahaca:0</li>
+                <li>Pollo:0</li>
+                <li>Choclo:0</li>
+            </ul>
         <hr>
+        </section>
 
-        <h3>Opciones de pedido</h3>
+        <section>
+            <h3>Opciones de pedido</h3>
 
-        <a target="_blank" href="Carta.html">Agregar pedido</a>
-        <br><br>
-        Pedido entregado
-        <br><br>
-        Cancelar pedido
+            <a target="_blank" href="Carta.html">Agregar pedido</a>
+            <br><br>
+            Pedido entregado
+            <br><br>
+            Cancelar pedido
+        </section>
 
         <hr>    
 
-        <h3>Opciones de stock</h3>
+        <section>
+            <h3>Opciones de stock</h3>
 
-        <a target="_blank" href="Stock.html">Consultar stock</a>
+            <a target="_blank" href="Stock.html">Consultar stock</a>
+            <br><br>
+            Agregar stock
+            <br><br>
+            Eliminar stock
+        </section>
         <br><br>
-        Agregar stock
-        <br><br>
-        Eliminar stock
-
+        <footer>
+            <a href="#titulo">Ir arriba</a> <!-- se puede ir a cualquier etiqueta que tenga un id -->
+        </footer>
     </body>
 </html>

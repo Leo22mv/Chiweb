@@ -2,61 +2,74 @@
 <html>
 <head>
     <title>Stock</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>Stock</h1><br><hr>
-    <table>
-        <tr> <!-- tr = línea, th = cabecera -->
-            <th>Producto</th>
-            <th>Cantidad</th>
-        </tr>
-        <tr>
-            <td>Harina</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Jamon</td>
-            <td>0</td>
-        </tr>
-            <td>Queso</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Ricota</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Nuez</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Espinaca</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Calabaza</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Roquefort</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Tomate</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Albahaca</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Pollo</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <td>Choclo</td>
-            <td>0</td>
-        </tr>
+    <table style="width: 200px;">    <!-- tr = línea, th = cabecera(columna), td = columna -->
+        <thead>    <!-- thead, tbody y tfoot sirven para que algunos exploradores separen en diferentes scrolls la cabecera, el cuerpo y el pie de la tabla -->
+            <tr> 
+                <th>Producto</th>
+                <th>Cantidad</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Harina</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Huevos</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Jamon</td>
+                <td>0</td>
+            </tr>
+                <td>Queso</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Ricota</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Nuez</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Espinaca</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Calabaza</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Roquefort</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Tomate</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Albahaca</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Pollo</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>Choclo</td>
+                <td>0</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>
